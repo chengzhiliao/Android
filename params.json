@@ -1,0 +1,6 @@
+{
+  "name": "Android-Recyclerview",
+  "tagline": "Android-挨踢博客",
+  "body": "# chengzhiliai\r\n关于目前弃用lisetview而使用Recyclerview的原因：\r\n在项目开发过程中，我们会发现在adapter中用viewholder保存layout中的子视图，从而使得下次进入时不会重复调用findbyid的操作；一定程度上减少了耗时操作；但其过程及其复杂；如果使用Recyclerview可以达到同样的效果，并且listview显得比较死板，只能呈垂直方向显示，并不能添加动画效果；从而使得Recyclerview应用而生，弥补了这二方面的不足，它可以实现各种布局，如瀑布布局，等，还能提添加动画效果，特别是在优化方面，Recyclerview封装有viewholder接口，无需自行去写！这是第一次上gitbub发布的看法，彩笔一枚！还在努力学习中！\r\n总结下来就三点：优化有封装，动画，实现多种布局！\r\n使用recyclerview要下载这个包com.android.support:recyclerview-v7:21.0.3下载地址如下\r\nhttps://github.com/VenomVendor/RecyclerView\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
